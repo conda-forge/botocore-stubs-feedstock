@@ -34,7 +34,7 @@ test:
 about:
   home: https://github.com/vemel/mypy_boto3_builder
   summary: Type annotations for botocore.
-  dev_url: https://github.com/vemel/mypy_boto3_builder
+  dev_url: https://github.com/vemel/mypy_boto3_builder/tree/main/types_botocore
   license: MIT
   license_file: LICENSE
 
