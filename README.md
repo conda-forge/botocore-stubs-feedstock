@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/botocore-stubs-
 
 Summary: Type annotations for botocore.
 
-Development: https://github.com/vemel/mypy_boto3_builder
+Development: https://github.com/vemel/mypy_boto3_builder/tree/main/types_botocore
 
 Current build status
 ====================
