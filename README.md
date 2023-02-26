@@ -1,11 +1,11 @@
-About botocore-stubs
-====================
+About botocore-stubs-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/botocore-stubs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/vemel/mypy_boto3_builder
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/botocore-stubs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Type annotations for botocore.
 
