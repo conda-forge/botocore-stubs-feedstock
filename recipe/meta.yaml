@@ -1,5 +1,5 @@
 {% set name = "botocore-stubs" %}
-{% set version = "1.31.19" %}
+{% set version = "1.31.20" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b4bd67fe3d286385c5c7e04ff00bb5b6c213793b9eb7e3ecfaf1f8e310b737d4
+  sha256: 4aa97c672a9ce162363bf177d003bd715c06a86f9fb69353515cc1ea00b4f163
 
 build:
   noarch: python
