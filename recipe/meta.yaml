@@ -22,7 +22,6 @@ requirements:
     - python >=3.8,<4.0
   run:
     - python >=3.8,<4.0
-    - types-awscrt
     - typing_extensions >=4.1.0
 
 test:
