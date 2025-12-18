@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: botocore-stubs
-  version: "1.42.12"
+  version: "1.42.13"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 0eaac8852441794f14bdb823b0b0dc1c7220cf024e506031d5e0d2c4855e277f
+  sha256: 7a1d5749a5088fa3184add28efad1e6548039b40d8d00413c69021c0c31501ee
 
 build:
   number: 0
