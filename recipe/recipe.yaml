@@ -13,7 +13,7 @@ source:
   sha256: dbeac2f744df6b814ce83ec3f3777b299a015cbea57a2efc41c33b8c38265825
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -31,7 +31,7 @@ tests:
   - requirements:
       run:
         - pip
-        - python ${{ python_min }}
+        - python ${{ python_min }}.*
     script:
       - python -c "import importlib; importlib.import_module('botocore-stubs')"
       - pip check
